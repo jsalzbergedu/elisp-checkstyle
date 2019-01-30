@@ -1,6 +1,6 @@
 ;; -*- lexical-binding: t -*-
 ;; An emacs wrapper for the csc116 checkstyle program
-(require 'output-buffer "~/.emacs.d/output-buffer/output-buffer.el")
+(require 'output-buffer)
 (defvar checkstyle-executable nil "The location of the checkstyle script.")
 
 (defun checkstyle-get-ret (path)
